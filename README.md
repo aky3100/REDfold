@@ -1,2 +1,3 @@
 # REDfold
-RNA Secondary Structure Prediction
+Residual Encoder-Decoder Network for RNA Secondary Structure Prediction
+
