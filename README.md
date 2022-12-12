@@ -1,5 +1,5 @@
 # REDfold
-Residual Encoder-Decoder Network for RNA Secondary Structure Prediction
+Residual Encoder-Decoder Network for RNA Secondary Structure Prediction. This repository contains the source code for REDfold from the paper "REDfold: Accurate RNA Secondary Structure Prediction using Residual Encoder-Decoder Network". Please cite the paper if you use our source code or data.
 
 ## Usage
 The users are welcome to use REDfold webserver available at https://redfold.ee.ncyu.edu.tw for RNA structure prediction.
