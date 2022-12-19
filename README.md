@@ -11,9 +11,9 @@ REDfold is implemented in Python code and cross-platform compatible.
 
 ### Data preprocess
 Preprocess the data with BPSEQ-formatted RNA sequences.
-'''
+```
 python process_data.py --test_files directory_containing_bpseq_files
-'''
+```
 
 ### Train model
 REDfold can train its parameters from preprocessed data.
