@@ -17,4 +17,8 @@ python test_redfold.py --train 1
 REDfold test for predicting RNA secondary structure.
 python test_redfold.py
 
+# Web Server
+Web server is available at https://redfold.ee.ncyu.edu.tw
+
+
 
