@@ -17,10 +17,13 @@ python process_data.py --test_files directory_containing_bpseq_files
 
 ### Train model
 REDfold can train its parameters from preprocessed data.
+```
 python test_redfold.py --train 1
+```
 
 ### Test data
 REDfold test for predicting RNA secondary structure.
+```
 python test_redfold.py
-
+```
 
