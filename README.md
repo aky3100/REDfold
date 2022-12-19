@@ -5,6 +5,10 @@ Residual Encoder-Decoder Network for RNA Secondary Structure Prediction. This re
 The users are welcome to use REDfold webserver available at https://redfold.ee.ncyu.edu.tw for RNA structure prediction.
 REDfold is implemented in Python code and cross-platform compatible.
 
+## System Requirement
+python (>=3.7)
+pytorch (>=1.4)
+
 ### Data preprocess
 Preprocess the data with BPSEQ-formatted RNA sequences.
 python process_data.py --test_files directory_containing_bpseq_files
@@ -16,9 +20,5 @@ python test_redfold.py --train 1
 ### Test data
 REDfold test for predicting RNA secondary structure.
 python test_redfold.py
-
-# Web Server
-Web server is available at https://redfold.ee.ncyu.edu.tw
-
 
 
