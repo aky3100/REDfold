@@ -6,7 +6,7 @@ The users are welcome to use REDfold webserver available at https://redfold.ee.n
 REDfold is implemented in Python code and cross-platform compatible.
 
 ## System Requirement
- python (>=3.7)
+ python (>=3.7)  
  pytorch (>=1.4)
 
 ### Data preprocess
