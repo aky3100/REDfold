@@ -7,7 +7,7 @@ REDfold is implemented in Python code and cross-platform compatible.
 
 ## System Requirement
  python (>=3.7)  
- biopython (>=1.79) 
+ biopython (>=1.79)  
  torch (>=1.9+cu111) 
 
 ### Data preprocess
