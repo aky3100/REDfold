@@ -10,21 +10,16 @@ REDfold is implemented in Python code and cross-platform compatible.
  biopython (>=1.79)  
  torch (>=1.9+cu111) 
 
-### Data preprocess
-Preprocess the data with BPSEQ-formatted RNA sequences.
+### Test data
+REDfold test for predicting RNA secondary structure with fasta-formatted RNA sequences.
 ```
-python process_data.py --test_files directory_containing_bpseq_files
+python test_redfold.py directory_containing_fasta_files
 ```
+
 
 ### Train model
-REDfold can train its parameters from preprocessed data.
+REDfold can train the parameters with BPSEQ-formatted RNA sequences.
 ```
-python test_redfold.py --train 1
-```
-
-### Test data
-REDfold test for predicting RNA secondary structure.
-```
-python test_redfold.py
+python test_redfold.py -train directory_containing_bpseq_files
 ```
 
