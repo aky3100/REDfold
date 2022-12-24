@@ -13,13 +13,13 @@ REDfold is implemented in Python code and cross-platform compatible.
 ### Test data
 REDfold test for predicting RNA secondary structure with fasta-formatted RNA sequences.
 ```
-python test_redfold.py directory_containing_fasta_files
+python redfold.py directory_containing_fasta_files
 ```
 
 
 ### Train model
 REDfold can train the parameters with BPSEQ-formatted RNA sequences.
 ```
-python test_redfold.py -train directory_containing_bpseq_files
+python redfold.py -train directory_containing_bpseq_files
 ```
 
