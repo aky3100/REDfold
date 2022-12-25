@@ -13,6 +13,12 @@ REDfold is implemented in Python code and cross-platform compatible.
  scipy (>=1.7.3)  
  torch (>=1.9+cu111) 
 
+### Installation
+REDfold can be installed through wheel package.
+```
+%pip install redfold-1.14a0-py2.py3-none-any.whl
+```
+
 ### Test data
 REDfold test for predicting RNA secondary structure with fasta-formatted RNA sequences.
 ```
@@ -25,4 +31,10 @@ REDfold can train the parameters with BPSEQ-formatted RNA sequences.
 ```
 python redfold.py -train directory_containing_bpseq_files
 ```
+
+## Web Server
+REDfold web server is available at https://redfold.ee.ncyu.edu.tw
+
+## Reference
+Chun-Chi Chen, Yi-Ming Chan, "REDfold: Accurate RNA Secondary Structure Prediction using Residual Encoder-Decoder Network."
 
