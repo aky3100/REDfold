@@ -23,7 +23,7 @@ REDfold can be installed through wheel package.
 REDfold test for predicting RNA secondary structure with fasta-formatted RNA sequences.
 ```
 % python redfold.py directory_containing_fasta_files
->tdbD00002586
+>D00002586
 GCUCGCGUGGCGUAAUGGCAACGCGUCUGACUUCUAAUCAGAAGAUUAUGGGUUCGACCCCCAUCGUGAGUG
 (((((((..((((.......)))).(((((.......))))).....(((((.......)))))))))))).
 ```
