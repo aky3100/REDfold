@@ -16,13 +16,13 @@ REDfold is implemented in Python code and cross-platform compatible.
 ### Installation
 REDfold can be installed through wheel package.
 ```
-%pip install redfold-1.14a0-py2.py3-none-any.whl
+% pip install redfold-1.14a0-py2.py3-none-any.whl
 ```
 
 ### Test data
 REDfold test for predicting RNA secondary structure with fasta-formatted RNA sequences.
 ```
-python redfold.py directory_containing_fasta_files
+% python redfold.py directory_containing_fasta_files
 >tdbD00002586
 GCUCGCGUGGCGUAAUGGCAACGCGUCUGACUUCUAAUCAGAAGAUUAUGGGUUCGACCCCCAUCGUGAGUG
 (((((((..((((.......)))).(((((.......))))).....(((((.......)))))))))))).
@@ -32,7 +32,7 @@ GCUCGCGUGGCGUAAUGGCAACGCGUCUGACUUCUAAUCAGAAGAUUAUGGGUUCGACCCCCAUCGUGAGUG
 ### Train model
 REDfold can train the parameters with BPSEQ-formatted RNA sequences.
 ```
-python redfold.py -train directory_containing_bpseq_files
+% python redfold.py -train directory_containing_bpseq_files
 ```
 
 ## Web Server
