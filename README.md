@@ -14,13 +14,13 @@ REDfold is implemented in Python code and cross-platform compatible that can be 
  torch (>=1.9+cu111) 
 
 ### Installation
-REDfold can be installed through wheel package.
+REDfold can be installed through the wheel package.
 ```
 % pip install redfold-1.14a0-py2.py3-none-any.whl
 ```
 
 ### Test data
-REDfold test for predicting RNA secondary structure with fasta-formatted RNA sequences.
+REDfold can predict the RNA secondary structure with fasta-formatted RNA sequences.
 ```
 % python redfold.py directory_containing_fasta_files
 >D00002586
