@@ -14,7 +14,7 @@ REDfold is implemented in Python code and the cross-platform compatible program 
  torch (>=1.9+cu111) 
 
 ### Installation
-REDfold can be installed through the wheel package.
+REDfold can be installed through the [wheel package](https://redfold.ee.ncyu.edu.tw).
 ```
 % pip install redfold-1.14a0-py2.py3-none-any.whl
 ```
