@@ -20,7 +20,7 @@ REDfold can be installed through the [wheel package](https://redfold.ee.ncyu.edu
 ```
 
 ### Test data
-REDfold can predict the RNA secondary structure with fasta-formatted RNA sequences.
+REDfold can predict the RNA secondary structure with fasta-formatted RNA sequences. The current version only support RNAs.
 ```
 % python redfold.py directory_containing_fasta_files
 >D00002586
