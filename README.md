@@ -23,7 +23,7 @@ REDfold can be installed through the [wheel package](https://redfold.ee.ncyu.edu
 ### Test data
 REDfold can predict the RNA secondary structure with fasta-formatted RNA sequences.
 ```
-% python redfold.py directory_containing_fasta_files
+% redfold directory_containing_fasta_files
 >D00002586
 GCUCGCGUGGCGUAAUGGCAACGCGUCUGACUUCUAAUCAGAAGAUUAUGGGUUCGACCCCCAUCGUGAGUG
 (((((((..((((.......)))).(((((.......))))).....(((((.......)))))))))))).
@@ -33,7 +33,7 @@ GCUCGCGUGGCGUAAUGGCAACGCGUCUGACUUCUAAUCAGAAGAUUAUGGGUUCGACCCCCAUCGUGAGUG
 ### Train model
 REDfold can train the parameters with BPSEQ-formatted RNA sequences.
 ```
-% python redfold.py -train directory_containing_bpseq_files
+% redfold -train directory_containing_bpseq_files
 ```
 
 ## Web Server
