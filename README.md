@@ -40,5 +40,5 @@ REDfold can train the parameters with BPSEQ-formatted RNA sequences.
 REDfold web server is available at https://redfold.ee.ncyu.edu.tw
 
 ## Reference
-Chen, Chun-Chi, and Yi-Ming Chan. "REDfold: Accurate RNA Secondary Structure Prediction using Residual Encoder-Decoder Network." BMC bioinformatics (2013).
+Chen, Chun-Chi, and Yi-Ming Chan. "REDfold: Accurate RNA Secondary Structure Prediction using Residual Encoder-Decoder Network." BMC Bioinformatics (2023).
 
